@@ -1,3 +1,52 @@
+/* .coingeckograb {
+    width: 100%;
+    padding: 8rem 0;
+    background-color: var(--background);
+} */
+
+/* .container {
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+} */
+
+.card {
+    display: flex;
+    grid-template-columns: auto;
+    flex-direction: column;
+    padding: 12px 22px;
+    margin: .4rem;
+    width: 170px;
+    height: 170px;
+    border-radius: 24px;
+    border: 1px solid #d3d3d3;
+    box-shadow: rgb(0 0 0 / 20%) 0px 8px 24px;
+    text-align: center;
+}
+
+.card img {
+    width: 50px;
+    margin: auto;
+    padding: .2rem 0;
+
+}
+
+@media screen and (max-width: 940px) {
+    .card {
+        grid-template-columns: 1fr;
+    }
+
+    .card {
+        align-self: center;
+    }
+}
+
+/* .card {
+    font-size: 22px;
+} */
+
 .green {
     color: var(--primary);
 }
